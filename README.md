@@ -1,4 +1,3 @@
-# scanpy.tl.score_genes_fix
-Bug fix on scanpy.tl.score_genes so it works with scaled data as well as data with many zeros. 
-
+## scanpy.tl.score_genes_fix
+The score_genes procedure currently uses a ranking system to split genes into bins of similar expression levels. The current approach fails with some datasets.
 
